@@ -13,6 +13,7 @@ import lombok.Data;
 @Data
 public class Hospital {
 
+	// Creating new project
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
